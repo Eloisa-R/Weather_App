@@ -18,9 +18,9 @@ Vue.component('map-iframe', {
 var weatherApp = new Vue({
     el: '#weatherApp',
     data: {
-        base_url: "http://api.openweathermap.org/data/2.5/weather?q=",
-        base_forecast_url: "http://api.openweathermap.org/data/2.5/forecast?q=",
-        current_loc_url: "http://api.openweathermap.org/data/2.5/weather?lat=",
+        base_url: "https://api.openweathermap.org/data/2.5/weather?q=",
+        base_forecast_url: "https://api.openweathermap.org/data/2.5/forecast?q=",
+        current_loc_url: "https://api.openweathermap.org/data/2.5/weather?lat=",
         weather_data: [],
         forecast: [],
         current_loc_data: [],
