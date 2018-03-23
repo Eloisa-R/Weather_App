@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Traveling</title>
+    <link rel="stylesheet" href="styles/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/bootstrap-grid.min.css.map">
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body>
+    
+    <div class="container" id="weatherApp">
+        <div class="row">
+            <div class="col-12">
+                <nav class="navbar navbar-light bg-light">
+                    <span class="navbar-brand mb-0 h1">Get My Weather</span>
+                    <a href="weather.html">Your Current location</a>
+                    <a href="travel.html">Traveling?</a>
+                    <form class="form-inline" action="search.html" @submit="getValueSearch">
+                        <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search a City</button>
+                    </form>
+                </nav>
+            </div>
+        </div>
+        <div class="row box">
+            <div class="col-12 travel">
+              <h2>Traveling somewhere? Let us help!</h2>
+              <p>You can search for your origin location and your destination to see </p>    
+            </div>
+        </div>
+    </div>
+
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/vue.js"></script>
+    <script type="text/javascript" src="http://www.google.com/jsapi"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
